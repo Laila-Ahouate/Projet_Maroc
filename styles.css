@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    
+    background-color: antiquewhite;
+    
+    background-size: cover;
+    animation:bord 15s ease-in-out infinite both;
+    
+}
+@keyframes bord {
+    0%{
+      background-image:url(img/i7.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+   20%{
+       background-image: url(img/i2.jpeg);
+       background-repeat: no-repeat;
+      background-size: cover;
+    }   
+    40%{
+        background-image: url(img/i3.jpeg);
+        background-repeat: no-repeat;
+      background-size: cover;
+    }
+    60%{
+        background-image: url(img/i4.jpeg);
+        background-repeat: no-repeat;
+      background-size: cover;
+    }
+    80%{
+        background-image: url(img/i42.jpeg);
+        background-repeat: no-repeat;
+      background-size: cover;        }
+    100%{
+        background-image: url(img/i5.jpeg);
+        background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+   
+   
+   
+   
+
+
+               }
+
+
+
+    
+
+.menu{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,.1);
+    backdrop-filter: blur(50px);
+    padding: 10px;
+    
+    
+ 
+}
+li{
+    list-style-type: none;
+    display: flex;
+    display: flex;
+    padding-left: 80px;
+  
+    font-size: large;
+}
+    
+    
+
+
+
+h2{
+  text-align: center;
+   background-color: black;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 50px;
+    margin-left: -90px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+
+  
+   
+}
+
+    
+   
+ul{
+    display: flex;
+   
+   
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+  color: rgb(0, 0, 0);
+  border-bottom:7px solid black;
+}
+footer{
+  background-color: rgba(0,0,0,.1);
+  backdrop-filter: blur(50px);
+  padding: 10px;
+  
+  margin-top: 335px;
+   color: aliceblue;
+   font-size: large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+ 
+}
+h1{
+    color: rgb(249, 251, 255),;
+    font-size: 80px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   align-items: flex-end;
+    text-shadow: 0 0 3px #8f8080, 0 0 5px #0a0a0b;
+ 
+   text-align: center;
+
+}
+
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Titre du document</title>
+    <style>
+     body{
+        background-image: url(img/télécharger\ \(1\).jpeg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        font-size: 200%;
+
+        
+        
+       
+     }
+      .box {
+        
+        width: 220px;
+        height: 300px;
+        border: 5px solid #dfb841;
+        
+        perspective: 1000px;
+        margin-left: 120px;
+       
+      }
+      .tous{
+        display: flex;
+        justify-content: center;
+        margin-top: 156px;
+        margin-right: 110px;
+     
+        
+        
+      }
+      .box-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.5s;
+        transform-style: preserve-3d;
+       
+      }
+      .box:hover .box-inner {
+        transform: rotateY(180deg);
+       
+      }
+      .box-front,
+      .box-back,.box-bac,.box-bak {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        
+       
+      }
+      .box-front {
+        background-image: url(img/Moroccan\ Woman.jpeg);
+       
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:rgb(2, 35, 2);
+        
+        }
+      .box-back {
+        background-image: url(img/rab.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #eeeeee;
+        transform: rotateY(180deg);
+        
+      }
+      .box-bak {
+        background-image: url(img/cass.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #eeeeee;
+        transform: rotateY(180deg);
+        
+      }.box-bac {
+        background-image: url(img/marr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #eeeeee;
+        transform: rotateY(180deg);
+        
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      button{
+        background-color: #dfb841;
+       
+        font-size: large;
+        border: #dfb841  solid 1px;
+        width:100%;
+        
+      }
+      h1{color: rgb(249, 251, 255),;
+        font-size: 70px;
+      
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       text-align: center;
+        text-shadow: 0 0 3px #8f8080, 0 0 5px #0a0a0b;
+      
+         }
+      
+    </style>
+  </head>
+  <body>
+   <h1>les 3 belles villes du Marroc</h1>
+   <div class="tous">
+    <div class="box">
+      <div class="box-inner">
+        <div class="box-front">
+          <h2>RABAT</h2>
+          
+        </div>
+        <div class="box-back">
+          <button><a href="RAbat.html">Click Me !</a></button>
+        </div>
+      </div>
+      
+    </div>
+    
+    <div class="box">
+        <div class="box-inner">
+          <div class="box-front">
+            <h2>CASA</h2>
+            
+          </div>
+          <div class="box-bak">
+            <button><a href="CASA.html">Click Me !</a></button>
+          </div>
+        </div>
+    
+
+      </div>
+      <div class="box">
+        <div class="box-inner">
+          <div class="box-front">
+            <h3>Marrakech</h3>
+           
+          </div>
+          <div class="box-bac">
+            <button><a href="marrakech.html">Click Me !</a></button>
+            
+          </div>
+     
+
+        </div>
+      </div>
+    </div> 
+  </body>
+</html>
